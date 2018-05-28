@@ -28,7 +28,7 @@ public class FoilenMachinePluginDefinitionProvider implements IPPluginDefinition
                         Machine.PROPERTY_PUBLIC_IP //
                 ));
 
-        pluginDefinitionV1.addTranslations("/com/foilen/infra/plugin/machine/messages");
+        pluginDefinitionV1.addTranslations("/com/foilen/infra/resource/machine/messages");
         pluginDefinitionV1.addResourceEditor(new MachineEditor(), MachineEditor.EDITOR_NAME);
 
         return pluginDefinitionV1;
